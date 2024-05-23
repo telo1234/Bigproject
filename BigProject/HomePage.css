@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/serpentine');
+h1{
+    padding-left: 15px;
+}
+h1, h2{
+    color: rgb(211, 211, 211);
+    display: inline;
+    
+    font-family: 'SERPENTINE', sans-serif;                          
+}
+nav{
+    text-align: right;
+    display: inline;
+}
+nav a{
+    font-size: x-large;
+    display: inline;
+    text-decoration: none;
+    color: rgb(212, 212, 212);
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+
+    font-family: 'SERPENTINE', sans-serif;                                               
+}
+a{
+    text-decoration: none;
+}
+.header{
+    padding-top: 15px;
+    padding-bottom: 30px;
+    background-color: black;
+    height: 40px;
+}
+body{
+    background-color: black;
+}
+.bg-img{
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 75vh;
+    background-position: center center;
+    background-image: url(Img/Sekiro-Shadows-Die-Twice-Character.png);
+}
+.goty{
+    display: flex;
+    align-items: center;
+}
+
+
+
