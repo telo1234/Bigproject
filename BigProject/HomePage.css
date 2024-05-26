@@ -83,13 +83,6 @@ html,body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.slider-frame{
-    width: 640px;
-    height: 360px;
-    overflow: hidden;
-    margin: auto;
-    padding-top: 100px;
-}
 
 @-webkit-keyframes slideshow{
     0% {background-position: 0%;}    
@@ -101,9 +94,9 @@ html,body {
     90% {background-position: 100%;}
     100% {background-position: 100%;}
 }
-.img-container{
+.img-container1{
     overflow: hidden;
-    background-image: url(Img/image\ \(2\).jpg);
+    background-image: url(Img/image\ \(1\).jpg);
     background-size: cover;
     height: 360px;
     width: 640px;
@@ -171,7 +164,7 @@ html,body {
 }
 .img-container2{
     overflow: hidden;
-    background-image: url(Img/image.png);
+    background-image: url(Img/image\ \(2\).png);
     background-size: cover;
     height: 360px;
     width: 640px;
@@ -187,15 +180,6 @@ html,body {
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-play-state: running;
     -webkit-animation-delay: 1s;
-}
-.frame2{
-    background-image: url(Img/depositphotos_247287768-stock-illustration-chinese-border-vector-illustration-design-Photoroom-removebg-preview.png);
-    width: 640px;
-    height: 360px;
-    background-repeat: no-repeat;
-    background-size: 644px 362px;
-    border-radius: 10px;
-    opacity: 0.6;
 }
 .text2{
     width: inherit;
@@ -219,6 +203,60 @@ html,body {
 .text2 p{
     position: absolute;
     right: 52%;
+    top: 40%;
+    color: rgb(208, 191, 136);
+    font-size: 30px;
+    text-align: center;
+    width: 650px;
+    
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+}
+.img-container3{
+    overflow: hidden;
+    background-image: url(Img/image\ \(3\).png);
+    background-size: cover;
+    height: 360px;
+    width: 640px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    margin-left: 15%;
+    border-radius: 5px;
+
+    -webkit-animation-name: slideshow;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    -webkit-animation-delay: 3s;
+}
+.des3{
+    height: 350px;
+    padding-top: 15%;
+    position: relative;
+}
+.text3{
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 225px;
+    width: 100%;
+    text-align: center;
+}
+.text3 h1{
+    float: right;
+    margin-top: 80px;
+    margin-right: 270px;
+    font-size: 40px;
+    color: rgb(208, 191, 136);
+    display: block;
+
+    font-family: "Radio Canada Big", sans-serif;
+    font-optical-sizing: auto;
+}
+.text3 p{
+    position: absolute;
+    left: 52%;
     top: 40%;
     color: rgb(208, 191, 136);
     font-size: 30px;
