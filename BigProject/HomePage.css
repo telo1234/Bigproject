@@ -77,7 +77,7 @@ html,body {
 }
 .section2{
     width: 100%;
-    height: 300vh;
+    height: 285vh;
 
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://www.sekirothegame.com/content/dam/atvi/sekiro/gallery/Sekiro_03.jpg);
     background-repeat: no-repeat;
@@ -312,7 +312,7 @@ html,body {
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
 }
-.a{
+.s-text{
     margin: auto;
     font-size: 125%;
     color: rgb(208, 191, 136);
@@ -322,4 +322,57 @@ html,body {
 
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
+}
+.awards{
+    background-image: url(Img/sekiro-shadows-die-twice-castle-fire-ab42pebqzoz9xaly.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+.awards td{
+    padding-bottom: 1vw;
+    border: 5px solid rgb(208, 191, 136);
+    border-radius: 5px;
+    color: rgb(208, 191, 136);
+    text-align: center;
+    font-size: x-large;
+
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+}
+.awards th{
+    padding: 1vw;
+    border: 5px solid rgb(208, 191, 136);
+    border-radius: 5px;
+    color: rgb(208, 191, 136);
+    text-align: center;
+    font-size: x-large;
+
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+}
+.awards table{
+    width: 75%;
+    height: 40vh;
+    margin: auto;
+    padding-top: 10vh;
+}
+.awards img{
+    height: 3vw;
+    width: 3vw;
+    margin: auto;
+    color: rgb(208, 191, 136);
+    filter: invert(100%);
+    padding-top: 2vw;
+}
+.awards td:hover, th:hover{
+    background-color: rgb(243, 145, 88);
+    opacity: 50%;
+    color: black;
+    transition: 0.8s ease;
+}
+.footer{
+    background-color: black;
+    width: 99vw;
+    height: 40vh;
 }
