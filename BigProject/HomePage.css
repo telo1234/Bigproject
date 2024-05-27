@@ -98,12 +98,12 @@ html,body {
     overflow: hidden;
     background-image: url(Img/image\ \(1\).jpg);
     background-size: cover;
-    height: 360px;
-    width: 640px;
+    height: 38vh;
+    width: 33.3vw;
     background-repeat: no-repeat;
     background-position: 0%;
-    margin-left: 15%;
-    border-radius: 5px;
+    margin-left: 15vw;
+    border-radius: 10px;
 
     -webkit-animation-name: slideshow;
     -webkit-animation-duration: 15s;
@@ -112,33 +112,24 @@ html,body {
     -webkit-animation-play-state: running;
     -webkit-animation-delay: 3s;
 }
-.frame{
-    background-image: url(Img/depositphotos_247287768-stock-illustration-chinese-border-vector-illustration-design-Photoroom-removebg-preview.png);
-    width: 640px;
-    height: 360px;
-    background-repeat: no-repeat;
-    background-size: 644px 362px;
-    border-radius: 10px;
-    opacity: 0.6;
-}
 .des1{
-    height: 350px;
-    padding-top: 15%;
+    height: 38vh;
+    padding-top: 25vh;
     position: relative;
 }
 .text1{
     width: inherit;
     height: inherit;
     position: absolute;
-    top: 225px;
+    top: 25vh;
     width: 100%;
     text-align: center;
 }
 .text1 h1{
     float: right;
-    margin-top: 80px;
-    margin-right: 360px;
-    font-size: 40px;
+    margin-top: 10px;
+    margin-right: 18vw;
+    font-size: 2vw;
     color: rgb(208, 191, 136);
     display: block;
 
@@ -148,52 +139,52 @@ html,body {
 .text1 p{
     position: absolute;
     left: 52%;
-    top: 40%;
+    top: 50px;
     color: rgb(208, 191, 136);
-    font-size: 30px;
+    font-size: 1.5vw;
     text-align: center;
-    width: 650px;
+    width: 33vw;
     
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
 }
 .des2{
-    height: 350px;
-    padding-top: 15%;
+    height: 38vh;
+    padding-top: 25vh;
     position: relative;
 }
 .img-container2{
     overflow: hidden;
     background-image: url(Img/image\ \(2\).png);
     background-size: cover;
-    height: 360px;
-    width: 640px;
+    height: 38vh;
+    width: 33.3vw;
     background-repeat: no-repeat;
     background-position: 0%;
-    margin-right: 15%;
+    margin-right: 15vw;
+    border-radius: 10px;
     float: right;
-    border-radius: 5px;
 
     -webkit-animation-name: slideshow;
     -webkit-animation-duration: 15s;
     -webkit-animation-direction: alternate;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-play-state: running;
-    -webkit-animation-delay: 1s;
+    -webkit-animation-delay: 2s;
 }
 .text2{
     width: inherit;
     height: inherit;
     position: absolute;
-    top: 225px;
+    top: 25vh;
     width: 100%;
     text-align: center;
 }
 .text2 h1{
     float: left;
-    margin-top: 80px;
-    margin-left: 360px;
-    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 18vw;
+    font-size: 2vw;
     color: rgb(208, 191, 136);
     display: block;
 
@@ -203,11 +194,11 @@ html,body {
 .text2 p{
     position: absolute;
     right: 52%;
-    top: 40%;
+    top: 50px;
     color: rgb(208, 191, 136);
-    font-size: 30px;
+    font-size: 1.5vw;
     text-align: center;
-    width: 650px;
+    width: 33vw;
     
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
@@ -216,38 +207,38 @@ html,body {
     overflow: hidden;
     background-image: url(Img/image\ \(3\).png);
     background-size: cover;
-    height: 360px;
-    width: 640px;
+    height: 38vh;
+    width: 33.3vw;
     background-repeat: no-repeat;
     background-position: 0%;
-    margin-left: 15%;
-    border-radius: 5px;
+    margin-left: 15vw;
+    border-radius: 10px;
 
     -webkit-animation-name: slideshow;
     -webkit-animation-duration: 15s;
     -webkit-animation-direction: alternate;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-play-state: running;
-    -webkit-animation-delay: 3s;
+    -webkit-animation-delay: 1s;
 }
 .des3{
-    height: 350px;
-    padding-top: 15%;
+    height: 38vh;
+    padding-top: 25vh;
     position: relative;
 }
 .text3{
     width: inherit;
     height: inherit;
     position: absolute;
-    top: 225px;
+    top: 25vh;
     width: 100%;
     text-align: center;
 }
 .text3 h1{
     float: right;
-    margin-top: 80px;
-    margin-right: 270px;
-    font-size: 40px;
+    margin-top: 10px;
+    margin-right: 13vw;
+    font-size: 2vw;
     color: rgb(208, 191, 136);
     display: block;
 
@@ -257,12 +248,78 @@ html,body {
 .text3 p{
     position: absolute;
     left: 52%;
-    top: 40%;
+    top: 50px;
     color: rgb(208, 191, 136);
-    font-size: 30px;
+    font-size: 1.5vw;
     text-align: center;
-    width: 650px;
+    width: 33vw;
     
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+}
+.des4{
+    height: 38vh;
+    padding-top: 25vh;
+    position: relative;
+}
+.img-container4{
+    overflow: hidden;
+    background-image: url(Img/image\ \(4\).png);
+    background-size: cover;
+    height: 38vh;
+    width: 33.3vw;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    margin-right: 15vw;
+    border-radius: 10px;
+    float: right;
+
+    -webkit-animation-name: slideshow;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    -webkit-animation-delay: 2s;
+}
+.text4{
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 25vh;
+    width: 100%;
+    text-align: center;
+}
+.text4 h1{
+    float: left;
+    margin-top: 10px;
+    margin-left: 13vw;
+    font-size: 2vw;
+    color: rgb(208, 191, 136);
+    display: block;
+
+    font-family: "Radio Canada Big", sans-serif;
+    font-optical-sizing: auto;
+}
+.text4 p{
+    position: absolute;
+    right: 52%;
+    top: 50px;
+    color: rgb(208, 191, 136);
+    font-size: 1.5vw;
+    text-align: center;
+    width: 33vw;
+    
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+}
+.a{
+    margin: auto;
+    font-size: 125%;
+    color: rgb(208, 191, 136);
+    text-align: center;
+    width: 75vw;
+    padding-top: 20vh;
+
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
 }
