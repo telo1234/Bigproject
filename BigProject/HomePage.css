@@ -325,7 +325,7 @@ html,body {
 }
 .awards{
     background-image: url(Img/sekiro-shadows-die-twice-castle-fire-ab42pebqzoz9xaly.jpg);
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
     background-size: cover;
 }
@@ -375,4 +375,43 @@ html,body {
     background-color: black;
     width: 99vw;
     height: 40vh;
+}
+.footer table{
+    width: 75%;
+    height: 40vh;
+    margin: auto;
+}
+.footer h1{
+    display: block;
+    color: white;
+    font-size: 4vw;
+    margin-bottom: 5vh;
+
+    font-family: 'SERPENTINE', sans-serif;   
+
+}
+.footer td{
+    padding-bottom: 1vw;
+    border-radius: 5px;
+    color: rgb(208, 191, 136);
+    text-align: center;
+    font-size: x-large;
+
+    
+}
+.footer a{
+    text-decoration: none;
+    color: #dddd;
+    display: inline;
+    font-size: xx-large;
+}
+.footer img{
+    height: 1.5vw;
+    width: 1.5vw;
+    margin: auto;
+    color: rgb(208, 191, 136);
+}
+img.two{
+    width: 2vw;
+
 }
