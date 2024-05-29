@@ -326,7 +326,7 @@ html,body {
 .awards{
     background-image: url(Img/sekiro-shadows-die-twice-castle-fire-ab42pebqzoz9xaly.jpg);
     width: 99vw;
-    height: 100vh;
+    height: 110vh;
     background-size: cover;
 }
 .awards td{
@@ -356,6 +356,7 @@ html,body {
     height: 40vh;
     margin: auto;
     padding-top: 10vh;
+    padding-bottom: 5vh;
 }
 .awards img{
     height: 3vw;
@@ -374,7 +375,7 @@ html,body {
 .footer{
     background-color: black;
     width: 99vw;
-    height: 40vh;
+    height: 39vh;
 }
 .footer table{
     width: 75%;
