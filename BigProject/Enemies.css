@@ -56,6 +56,46 @@ html,body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 99vw;
-    height: 100vh;
+    height: auto;
 }
+.enem-tb h1{
+    color: bisque;
+    font-size: 4vw;
+    margin: 0;
+    padding: 5vh;
 
+    font-family: 'SERPENTINE', sans-serif;
+}
+.enem-tb table{
+    width: 70vw;
+    margin-bottom: 10vh;
+    background-color: rgba(0, 0, 0, 0.438);
+    border-radius: 40px;
+}
+.enem-tb table td, th{
+    padding: 10px;
+    color: white;
+
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+
+}
+.enem-tb td{
+    text-align: center;
+    font-size: x-large;
+}
+.enem-tb th{
+    font-size: xx-large;
+}
+.enem-tb img{
+    width: 20vw;
+    border-radius: 5px;
+}
+.enem-tb a{
+    color: white;
+    text-decoration: none;
+}
+.enem-tb a:hover{
+    color: #bdbcbcdd;
+
+}
